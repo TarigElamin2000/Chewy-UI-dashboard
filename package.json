@@ -1,0 +1,40 @@
+{
+  "name": "ui-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chewy/kib-controls-react": "^3.16.9",
+    "@chewy/kib-controls-styles": "^3.17.8",
+    "@chewy/kib-css-helpers": "^3.14.8",
+    "@chewy/kib-fields-react": "^3.26.12",
+    "@chewy/kib-fields-styles": "^3.20.8",
+    "@chewy/kib-foundations": "^3.15.2",
+    "@chewy/kib-interstitials-react": "^3.2.17",
+    "@chewy/kib-interstitials-styles": "^3.3.10",
+    "@chewy/kib-layout-styles": "^3.12.19",
+    "@chewy/kib-logos-react": "^3.0.5",
+    "@chewy/kib-normalize": "^3.15.2",
+    "@chewy/kib-transition-styles": "^3.12.16",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.93",
+    "@mui/material": "^5.9.3",
+    "@mui/styled-engine-sc": "^5.9.3",
+    "core-js": "^3.24.1",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2"
+  }
+}

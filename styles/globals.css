@@ -1,0 +1,76 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bar {
+  height: 125px;
+  justify-content: center;
+}
+
+.flex-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 350px;
+  padding-left: 150px;
+}
+
+.img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.detail {
+  margin-left: 20px;
+  font-weight: 500;
+  color: blue;
+}
+
+.bar-input {
+  float: right;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.spinner{
+position: fixed;
+top: 50%;
+left: 50%;
+}
+
+.spinner-div{
+  padding: 100%;
+  color: blue;
+}
+
+.MuiButton-root {
+  font-size: 1.5rem !important;
+}
+
+.MuiTreeItem-label {
+  font-size: 1.5rem !important;
+}
+
+.altMsg {
+  display: inline-block;
+  height: 25px;
+  padding-top: 25px;
+}

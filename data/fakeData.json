@@ -1,0 +1,58 @@
+{
+"sources" : [{
+    "name": "inventory-svc",
+    "id":1,
+    "details": {
+        "servlet": "****---****"
+    },
+    "children": [{
+        "name": "postgresql",
+        "id":2,
+        "details": {},
+        "children": []
+    },
+    {
+        "name": "java-aws-sdk",
+        "id":3,
+        "details": {
+            "http": "*******-**"
+        },
+        "children": [{
+            "name": "stark-appointment-service",
+            "id":4,
+            "details": {
+                "http": "**********",
+                "servlet": "**********",
+                "http-1": "**********",
+                "servlet-1": "**********",
+                "http-2": "**********",
+                "servlet-2": "**********",
+                "http-3": "**********",
+                "servlet-3": "**********"
+            },
+            "children": [{
+                "name": "chewy-auth",
+                "id":5,
+                "details": {
+                    "servlet": "**********"
+                },
+                "children": [{
+                    "name": "chewy-auth-user-api",
+                    "id":6,
+                    "details": {
+                        "servlet": "***---*****"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "keycloak-db",
+                    "id":7,
+                    "details": {},
+                    "children": []
+                }]
+            }]
+        }]
+    }]
+
+ }]
+}
